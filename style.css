@@ -1,0 +1,46 @@
+body, html {
+    margin: 0;
+    padding-top: 50px; /* Adjust the distance from the top */
+    padding-left: 50px; /* Adjust the distance from the left */
+    height: 100%;
+    background-color: black;
+    color: #FF073A; /* Or any color you prefer */
+    text-shadow: 0 0 5px #FF073A, 0 0 10px #FF073A, 0 0 15px #FF073A, 0 0 20px #FF073A;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+#typing {
+    display: inline-block; /* Ensures the div behaves as an inline element */
+    padding: 0px; /* Adjust or remove padding as needed */
+    margin: 0; /* Ensures there's no default margin */
+}
+
+#typing .typed-cursor {
+    display: inline-block;
+    margin-left: -10px; /* Adjust as necessary to reduce any unwanted space */
+}
+
+.sound-control {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    cursor: pointer;
+    z-index: 1000;
+    color: #FF073A; /* Neon red color, adjust the hex value as needed */
+    text-shadow: 0 0 5px #FF073A, 0 0 10px #FF073A, 0 0 15px #FF073A, 0 0 20px #FF073A;
+}
+
+
+
+#userInputDisplay {
+    color: #FF073A; /* Red text */
+    background-color: black;
+    font-family: 'Courier New', Courier, monospace;
+    border: none;
+    outline: none;
+    min-height: 20px; /* Ensure the container has height even when empty */
+    cursor: text; /* Make it look like a text input */
+    text-shadow: 0 0 5px #FF073A, 0 0 10px #FF073A, 0 0 15px #FF073A, 0 0 20px #FF073A;
+
+}
+
